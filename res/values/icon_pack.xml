@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="icon_pack" translatable="false">
+        <item>dock_icon0001</item>
+        <item>dock_icon0002</item>
+        <item>dock_icon0003</item>
+        <item>com_android_browser_browseractivity</item>
+        <item>com_android_calculator2_calculator</item>
+        <item>com_android_calendar_launchactivity</item>
+        <item>com_android_camera_camera</item>
+        <item>com_android_cardock_cardockactivity</item>
+        <item>com_android_contacts_dialtactsactivity</item>
+        <item>com_android_contacts_dialtactscontactsentryactivity</item>
+        <item>com_android_deskclock_deskclock</item>
+        <item>com_android_development_development</item>
+        <item>com_android_mms_ui_conversationlist</item>
+        <item>com_android_music_musicbrowseractivity</item>
+        <item>com_android_music_videobrowseractivity</item>
+        <item>com_android_settings_settings</item>
+        <item>com_android_soundrecorder_soundrecorder</item>
+        <item>com_android_spare_parts_spareparts</item>
+        <item>com_android_term_term</item>
+        <item>com_android_vending_assetbrowseractivity</item>
+        <item>com_android_voicedialer_voicedialeractivity</item>
+        <item>com_cooliris_media_gallery</item>
+        <item>com_facebook_katana_loginactivity</item>
+        <item>com_google_android_apps_genie_geniewidget_activities_newsactivity</item>
+        <item>com_google_android_apps_googlevoice_splashactivity</item>
+        <item>com_google_android_gm_conversationlistactivitygmail</item>
+        <item>com_google_android_googlequicksearchbox_searchactivity</item>
+        <item>com_google_android_talk_signinginactivity</item>
+        <item>com_google_android_youtube_homeactivity</item>
+        <item>net_cactii_flash2_mainactivity</item>
+        <item>com_google_android_apps_docs_app_mainproxyactivity</item>
+        <item>theme_icon</item>
+        <item>icon0001</item>
+        <item>icon0002</item>
+        <item>icon0003</item>
+        <item>icon0004</item>
+        <item>icon0005</item>
+        <item>icon0006</item>
+        <item>icon0007</item>
+        <item>icon0008</item>
+        <item>icon0009</item>
+        <item>icon0010</item>
+        <item>icon0011</item>
+        <item>icon0012</item>
+        <item>icon0013</item>
+        <item>icon0014</item>
+        <item>icon0015</item>
+    </string-array>
+</resources>

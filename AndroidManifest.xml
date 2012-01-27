@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="x.x.x"
+      android:versionCode="1"
+      android:versionName="1.0"
+      android:installLocation="internalOnly">
+    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="15"/>
+    
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+        
+    <application android:label="@string/theme_title" android:icon="@drawable/theme_icon" >
+        <activity
+            android:name=".HelperActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Icons"
+                  android:label="@string/theme_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="org.adw.launcher.THEMES" />
+                <category android:name="android.intent.category.DEFAULT" />                
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.adw.launcher.icons.ACTION_PICK_ICON" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>              
+        </activity>
+        <activity android:label="@string/wp_theme_title" android:icon="@drawable/wallpaper_icon" android:name=".Wallpaper" android:screenOrientation="nosensor" android:finishOnCloseSystemDialogs="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Docks"
+            android:label="@string/theme_title"
+            android:icon="@drawable/theme_icon">
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity android:name="x.x.x.GoLauncher"
+                  android:icon="@drawable/theme_icon"
+                  android:label="@string/theme_title">
+            <intent-filter>
+                <action android:name="com.gau.go.launcherex.theme" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+          	<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+     			<category android:name="android.intent.category.INFO" />	
+			</intent-filter>
+        </activity>
+        <provider android:name="x.x.x.DocksProvider"  android:authorities="x.x.x.DocksProvider" />
+        <receiver android:name=".AnalogClockWidget" android:label="@string/analog_gadget"
+        	android:icon="@drawable/ic_widget_analog_clock">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.oldName" android:value="com.android.deskclock.AnalogAppWidgetProvider" />
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/analog_appwidget" />
+        </receiver>
+    </application>
+</manifest> 

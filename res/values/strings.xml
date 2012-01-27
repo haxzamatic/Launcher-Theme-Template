@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Label for app name in launcher -->
+    <string name="app_name">Template</string>
+    <!-- Theme Title -->
+	<string name="theme_title">Template</string>
+	<!-- To devs, read here on howto format/style your descriptions -->
+	<!-- http://developer.android.com/intl/de/guide/topics/resources/string-resource.html#FormattingAndStyling -->
+	<string name="theme_description">Awesome, thanks for trying Template Theme!
+	This Template is basically a Template. Enjoy</string>
+	<string name="theme_info">Awesome, thanks for trying Template Theme!
+	This Template is basically a Template. Enjoy</string>
+    <!-- Label for wallpaper apply button name -->
+    <string name="apply">Apply Wallpaper</string>
+    <!-- Label for wallpaper popup -->
+    <string name="wp_theme_title">Template</string>
+    <!-- Labels for helper icons -->
+    <string name="applyadw">Apply ADW Theme</string>
+    <string name="applyadwex">Apply ADW EX Theme</string>
+    <string name="applygo">Apply GO Theme</string>
+    <string name="applylpp">Apply LPP Theme</string>
+    <string name="emailme">Email Me</string>
+    <string name="rateme">Rate Theme</string>
+    <string name="helpme">Disable Helper</string>
+    <string name="twitterme">Follow On Twitter</string>
+    <string name="googleme">Follow On Google+</string>
+    <string name="applywallpaper">Apply Wallpaper</string>
+    <!-- Label for analog clock gadget, shown in list of all gadgets -->
+    <string name="analog_gadget">Template Clock</string>
+	<string name="dialogtitle">Checking GO Launcher EX</string>
+    <string name="dialogcontent">GO Launcher EX is not installed in your phone, please press OK to download it</string>
+    <string name="dialogok">OK</string>
+    <string name="hello">Template</string>
+</resources>

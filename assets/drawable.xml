@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<version>1</version>
+<item drawable="phone" />
+<item drawable="contacts" />
+<item drawable="d_home" />
+<item drawable="messaging" />
+<item drawable="browser" />
+<item drawable="calculator" />
+<item drawable="calendar" />
+<item drawable="camera" />
+<item drawable="clock" />
+<item drawable="email" />
+<item drawable="facebook" />
+<item drawable="gallery" />
+<item drawable="d_add" />
+<item drawable="gtalk" />
+<item drawable="maps" />
+<item drawable="market" />
+<item drawable="music" />
+<item drawable="settings" />
+<item drawable="twitter" />
+<item drawable="googlesearch" />
+<item drawable="t01" />
+<item drawable="voicesearch" />
+<item drawable="es" />
+<item drawable="evernote" />
+<item drawable="handcent" />
+<item drawable="opera" />
+<item drawable="operamini" />
+<item drawable="picplz" />
+<item drawable="taskmanager" />
+<item drawable="renren" />
+<item drawable="weibo" />
+<item drawable="t02" />
+</resources>
